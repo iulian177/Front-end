@@ -1,0 +1,45 @@
+body {
+  background-color: rgb(20, 84, 179);
+  text-align: center;
+}
+@media (min-width: 1000px) {
+  body main {
+    display: flex;
+  }
+  body main ul {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+  }
+}
+body p {
+  color: white;
+}
+body ul {
+  list-style: none;
+  padding: 20px;
+}
+body ul li {
+  display: inline;
+  padding: 5px 10px 5px 10px;
+  font-size: 30px;
+}
+body ul li:hover {
+  background-color: rgb(20, 84, 179);
+  cursor: pointer;
+  border-radius: 10px;
+}
+body a {
+  color: white;
+  text-decoration: none;
+}
+body h1 {
+  color: white;
+}
+body nav {
+  background-color: #3399ff;
+}
+body footer {
+  background-color: black;
+  padding: 10px 0px;
+}/*# sourceMappingURL=myStyles.css.map */

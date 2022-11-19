@@ -1,0 +1,59 @@
+
+    $text-color: white;
+    $bg-color:rgb(20, 84, 179);
+    $container-color:#3399ff;
+    @mixin responsive {
+        @media(min-width: 1000px){
+            @content
+        }
+    }
+body {
+    background-color: $bg-color  ; 
+    text-align: center;
+    main{
+        @include responsive{
+            display: flex;
+            ul{
+                display: flex;
+                gap: 10px;
+                flex-direction: column;
+            }
+        }
+    }
+    p{
+        color: $text-color;      
+    }
+    ul{
+        list-style: none;
+        padding: 20px;
+        li{
+            display: inline;
+            padding: 5px 10px 5px 10px;
+            font-size: 30px;
+            
+        }
+        li:hover{
+            background-color:$bg-color ;
+            cursor: pointer;
+            
+            border-radius: 10px ;
+        }
+    }
+    a{
+        color: $text-color;
+        text-decoration: none;
+    }
+    h1{
+        color: $text-color;
+    }
+    nav{
+        background-color: $container-color;
+    }
+    footer {
+        background-color: black;
+        padding: 10px 0px;
+    }
+
+}
+
+
