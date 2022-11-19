@@ -1,0 +1,10 @@
+footer {
+  display: flex;
+  justify-content: space-around;
+  min-width: 90px;
+  flex-flow: row wrap;
+}
+footer p {
+  padding-left: 10px;
+  padding-right: 10px;
+}
