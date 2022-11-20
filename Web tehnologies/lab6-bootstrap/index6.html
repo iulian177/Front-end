@@ -9,21 +9,84 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Website</title>
   </head>
   <body>
-    <div class="container-fluid">
-        <h1>My First Bootstrap Page</h1>
-        <p>This is some text.</p>
-      </div>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Dropdown</a>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="#">Link</a></li>
-          <li><a class="dropdown-item" href="#">Another link</a></li>
-          <li><a class="dropdown-item" href="#">A third link</a></li>
+
+    <div class="p-5 top_part text-white text-center">
+      <h1>Bootstrap 5 Page</h1>
+     
+    </div>
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <div class="container-fluid">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">Disabled</a>
+          </li>
         </ul>
+       
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#learn" class="nav-link">What You'll Learn</a>
+            </li>
+            <li class="nav-item">
+              <a href="#questions" class="nav-link">Questions</a>
+            </li>
+            <li class="nav-item">
+              <a href="#instructors" class="nav-link">Instructors</a>
+            </li>
+          </ul>
+        </div>
+       
+      </div>
+    </nav>
+   
+    <main class="row">
+
+     
+    <ul class="col nav nav-pills flex-column">
+      <li class="nav-item linc">
+        <a class="nav-link active" href="#">Active</a>
       </li>
-      <button type="button" class="btn btn-danger">Danger</button>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+      
+    
+    <div class="col container mt-3">
+      <h2>Card Image</h2>
+      
+      <div class="card" style="width:400px">
+        <img class="card-img-top" src="../bootstrap4/img_avatar1.png" alt="Card image" style="width:100%">
+        <div class="card-body">
+          <h4 class="card-title">John Doe</h4>
+          <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+          <a href="#" class="btn btn-primary">See Profile</a>
+        </div>
+      </div>
+    </div>
+    
+  </main>
+      
   </body>
 </html>
+
