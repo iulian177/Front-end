@@ -1,6 +1,7 @@
 
 
 //1-st function(add numbers)
+
 function sumTo(n) {   
     var sum = 0;
     if ( n >= 0 && (Number.isInteger(n)==true))
@@ -23,6 +24,7 @@ console.log(sumTo(4.3));
 console.log(sumTo(-4.3));
 
 //1-st object
+
 var employee =
 {   firstName : "Ion",
     lastName : "Popescu",
@@ -39,8 +41,15 @@ var employee =
 
 //writing in console
 //object
+
 window.alert(employee.getFullDescription());
-document.write(employee.getFullName())
+
+//instead of
+//document.write(employee.getFullName());  =>
+
+let html = "<label>new label</label>";
+document.getElementById("p2").insertAdjacentHTML("beforebegin", html);
+document.getElementById("p2").insertAdjacentHTML("afterend", employee.getFullName());
 
 
 
