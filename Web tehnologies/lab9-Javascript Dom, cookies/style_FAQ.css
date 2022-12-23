@@ -1,0 +1,40 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+blockquote {
+    font-size: 1.5em;
+    color: gray;
+    display: none;
+}
+
+.showAnswer {
+    display: block;
+}
+
+h1 {
+    color: green;
+    cursor: pointer;
+    user-select: none;
+}
+
+.opened {
+    color: yellowgreen;
+}
+
+h3 {
+    margin-top: 100px;
+}
+
+#grade {
+    width: 120px;
+}
+
+.valid-grade {
+    background-color: rgb(35, 117, 13);
+}
+
+.invalid-grade {
+    background-color: rgb(136, 32, 32);
+}
+
