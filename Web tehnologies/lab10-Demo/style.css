@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+}
+
+div {
+  height: 30vh;
+  width: 30vw;
+  margin: 10%;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div:first-child {
+  background-color: coral;
+}
+
+div:nth-child(2) {
+  background-color: hotpink;
+}
+
+div:nth-child(3) {
+  background-color: paleturquoise;
+}
+
+div:last-child {
+  background-color: peachpuff;
+}
+
+p {
+  position: absolute;
+  top: 45vh;
+  left: 42vw;
+}
+
+.p-disabled {
+  color: red;
+  left: 39vw;
+}
